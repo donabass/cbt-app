@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local CBT App</title>
+  <style>
+    body { font-family: Arial; max-width: 700px; margin: auto; padding: 20px; }
+    .question { margin-bottom: 20px; }
+    .option { margin: 5px 0; }
+    #admin-panel { display: none; margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>CBT Test</h2>
+  <p>Time Left: <span id="timer">5:00</span></p>
+  <div id="quiz-container"></div>
+  <button onclick="submitQuiz()">Submit</button>
+  <button id="export-btn" onclick="exportResult()" style="display:none;">Export Result</button>
+  <pre id="result"></pre>
+
+  <div id="admin-panel">
+    <h3>Admin Panel - Add New Question</h3>
+    <input type="text" id="admin-question" placeholder="Question" size="70"><br><br>
+    <input type="text" id="admin-opt1" placeholder="Option 1" size="50"><br>
+    <input type="text" id="admin-opt2" placeholder="Option 2" size="50"><br>
+    <input type="text" id="admin-opt3" placeholder="Option 3" size="50"><br>
+    <input type="text" id="admin-opt4" placeholder="Option 4" size="50"><br>
+    <input type="text" id="admin-answer" placeholder="Correct Answer" size="50"><br><br>
+    <button onclick="addQuestion()">Add Question</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

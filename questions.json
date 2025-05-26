@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the full meaning of CPU?",
+    "options": ["Central Processing Unit", "Central Power Unit", "Control Processing Unit", "Computer Processing Unit"],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "question": "Which key is used to delete characters to the left of the cursor?",
+    "options": ["Backspace", "Delete", "Enter", "Shift"],
+    "answer": "Backspace"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "Hyperlink Markup Language", "Home Tool Markup Language", "HyperText Markdown Language"],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "question": "Which of these is an input device?",
+    "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+    "answer": "Keyboard"
+  },
+  {
+    "question": "Which software is used to browse the internet?",
+    "options": ["Word Processor", "Web Browser", "Spreadsheet", "Antivirus"],
+    "answer": "Web Browser"
+  },
+  {
+    "question": "Which file extension is used for HTML files?",
+    "options": [".html", ".docx", ".exe", ".js"],
+    "answer": ".html"
+  },
+  {
+    "question": "Which of these is a programming language?",
+    "options": ["HTTP", "USB", "Python", "WiFi"],
+    "answer": "Python"
+  },
+  {
+    "question": "What is the shortcut key to copy in Windows?",
+    "options": ["Ctrl + C", "Ctrl + V", "Ctrl + X", "Ctrl + Z"],
+    "answer": "Ctrl + C"
+  },
+  {
+    "question": "Which device displays the output from a computer?",
+    "options": ["Mouse", "Scanner", "Monitor", "Keyboard"],
+    "answer": "Monitor"
+  },
+  {
+    "question": "What is the brain of the computer?",
+    "options": ["Monitor", "Mouse", "CPU", "Keyboard"],
+    "answer": "CPU"
+  }
+]
